@@ -22,6 +22,7 @@ const nextConfig = {
     return config;
   },
   turbopack: {
+    root: __dirname,
     resolveAlias: {
       'react/compiler-runtime': './sanity/react-compiler-runtime-mock.js',
     },
